@@ -34,4 +34,4 @@ jobs:
           path: |
             tmas-scan-report.json
             tmas-scan-report.html
-          retention-days: 10
+          retention-days: 7
