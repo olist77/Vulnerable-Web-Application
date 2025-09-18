@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: TMAS Security Scan
-        uses: trendmicro/tmas-scan-action@v3
+        uses: trendmicro/tmas-scan-action@v3.0.1
         with:
           version: '3' # Use latest major version
           vulnerabilitiesScan: true
