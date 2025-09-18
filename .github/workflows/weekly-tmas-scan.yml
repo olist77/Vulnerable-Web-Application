@@ -17,7 +17,7 @@ jobs:
       - name: TMAS Security Scan
         uses: trendmicro/tmas-scan-action@v3.0.1
         with:
-          version: '3' # Use latest major version
+          version: '2' # Use latest major version
           vulnerabilitiesScan: true
           malwareScan: true # Enable malware scanning for comprehensive security
           secretsScan: true
